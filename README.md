@@ -1,17 +1,14 @@
-# Credit_Risk_Analysis
-
-##  Project Overview
-This project analyzes bank loan data to identify default patterns. I used **SQL Server** for data extraction and **Microsoft Excel** to create an interactive dashboard.
+# Credit Risk Analysis
 
 ## 📊 Dashboard Preview
-![Dashboard](Credit_Risk_Dashboard.png)
+![Dashboard Screenshot](Credit_Risk_Dashboard.png)
+
+##  Project Overview
+An end-to-end data analysis project using **SQL Server** to process 32,000+ loan records and **Excel** to visualize risk factors.
 
 ##  Key Technical Steps
-* **SQL:** Performed aggregations to find default rates by income and home ownership.
-* **Excel:** Built a professional dashboard using Pie, Column, and Bar charts.
-* **Insights:** Identified that renters have a higher risk profile than homeowners in this dataset.
-
-##  Files
-* `Credit_Risk_Analysis.xlsx` - Interactive Dashboard
-* `Credit_Risk_Queries.sql` - SQL Scripts
-*
+* **SQL:** Calculated default rates and average income using `GROUP BY` and `SUMIF` logic.
+  
+* **Excel:** Created a professional dashboard with a consistent blue-orange theme, removing gridlines for a clean UI.
+  
+* **Analysis:** Found that **Renters** have a significantly higher default count (5,192) compared to **Mortgage** holders (1,690).
